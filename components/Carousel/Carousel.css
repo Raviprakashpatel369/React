@@ -1,0 +1,34 @@
+/* Use the container class to style the outer div */
+.container {
+  /* Use the display property to create a flex layout */
+  display: flex;
+  /* Use the align-items property to center the items vertically */
+  align-items: center;
+  /* Use the justify-content property to center the items horizontally */
+  justify-content: center;
+  /* Use the height property to set the height of the container */
+  height: 400px;
+}
+
+/* Use the images class to style the inner div */
+.images {
+  /* Use the position property to set the position of the div */
+  position: relative;
+  /* Use the overflow property to hide the overflow content */
+  height: 400px;
+  width: 400px;
+}
+
+/* Use the image class to style the image elements */
+.image {
+  /* Use the position property to set the position of the images */
+  position: absolute;
+  /* Use the top and left properties to align the images to the center of the div */
+  top: 0%;
+  left: 0%;
+  /* Use the transform property to offset the images by half of their width and height */
+  /* transform: translate(-50%, -50%); */
+  /* Use the width and height properties to set the size of the images */
+  width: 300px;
+  height: 300px;
+}
